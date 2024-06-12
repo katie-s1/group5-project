@@ -328,6 +328,15 @@ input::placeholder {
     }
 }
 
+@media (max-width: 360px) {
+    hr {
+        display: block;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        border-style: inset;
+        border-width: 1px;
+      }
+}
 
 .group-member-card {
     margin-bottom: 100px;
