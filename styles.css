@@ -351,4 +351,19 @@ input::placeholder {
         margin-right: 5%;
         margin-left: 5%;
     }
+
+    .main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10% 10%;
+    position: fixed;
+    z-index: 1030;
+    width: 100%;
+    background-color: #dabfe0;
+    }
+
+    .main-div {
+    padding: 100px;
+    }
 }
