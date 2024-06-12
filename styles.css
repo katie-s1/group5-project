@@ -157,6 +157,13 @@ input::placeholder {
     background-color: #DABFE0;
 }
 
+@media (max-width: 360px) {
+    .content {
+        display: block;
+        width: 100%;
+    }
+}
+
 .green-text {
     color: green;
 }
