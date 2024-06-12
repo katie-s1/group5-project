@@ -313,11 +313,15 @@ input::placeholder {
     .main-header {
         display: block;
         align-items: center;
-        padding: 10px 20px 50px 20px;
+        padding: 10px 20px 10px 20px;
         position: fixed;
         z-index: 1030;
         width: 100%;
         background-color: #dabfe0;
+    }
+
+    .page-heading {
+        padding-top: 25%;
     }
     
     .heading-main {
