@@ -259,48 +259,18 @@ input::placeholder {
 }
 
 @media (max-width: 360px) {
-    .text-content20 {
-        display: block;
-        width: 100%;
-        flex: 1;
-        text-align: center;
-    }
 
-    .text-content30 {
-        display: block;
-        width: 100%;
-        flex: 1;
-        text-align: center;
-    }
-
-    .text-content40 {
-        display: block;
-        width: 100%;
-        flex: 1;
-        text-align: center;
-    }
-
-    .text-content50 {
-        display: block;
-        width: 100%;
-        flex: 1;
-        text-align: center;
-        vertical-align: middle;
-    }
-
-    .text-content60 {
-        display: block;
-        width: 100%;
-        flex: 1;
-        text-align: center;
-    }
-
+    .text-content20,
+    .text-content30,
+    .text-content40,
+    .text-content50,
+    .text-content60,
     .text-content70 {
         display: block;
         width: 100%;
-        flex: 1;
-        text-align: center;
-     }
+
+    }
+
 }
 
 .additional-text {
@@ -313,10 +283,11 @@ input::placeholder {
 
 @media (max-width: 360px) {
     .additional-text {
-        text-align: center;
+        display: block;
         width: 100%;
     }
 }
+
 
 .group-member-card {
     margin-bottom: 100px;
