@@ -253,7 +253,7 @@ input::placeholder {
     /* Added margins so the text didn't go right to the edge */
 }
 
-.subscribe-form {
+.subscribe-container {
     margin-right: 100px;
     margin-left: 100px;
 }
@@ -338,7 +338,7 @@ input::placeholder {
         margin-left: 5%;
 
     }
-    .subscribe-form {
+    .subscribe-container {
         display: block;
         margin-right: 5%;
         margin-left: 5%;
