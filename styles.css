@@ -314,7 +314,12 @@ input::placeholder {
         display: block;
         align-items: center;
         padding: 10px 20px 50px 20px;
+        position: fixed;
+        z-index: 1030;
+        width: 100%;
+        background-color: #dabfe0;
     }
+    
     .heading-main {
         font-size: 18px;
         font-weight: bold;
@@ -352,18 +357,4 @@ input::placeholder {
         margin-left: 5%;
     }
 
-    .main-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10%;
-    position: fixed;
-    z-index: 1030;
-    width: 100%;
-    background-color: #dabfe0;
-    }
-
-    .main-div {
-    padding: 100px;
-    }
 }
