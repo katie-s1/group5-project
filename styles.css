@@ -281,7 +281,7 @@ input::placeholder {
 }
 
 
-@media (max-width: 360px) {
+@media (max-width: 600px) {
     .heading-landing {
         text-align: center;
         margin-top: 60%;
