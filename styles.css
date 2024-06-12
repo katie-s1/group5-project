@@ -251,12 +251,69 @@ input::placeholder {
     vertical-align: middle;
 }
 
+@media (max-width: 360px) {
+    .text-content20 {
+        display: block;
+        width: 100%;
+        flex: 1;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .text-content30 {
+        display: block;
+        width: 100%;
+        flex: 1;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .text-content40 {
+        display: block;
+        width: 100%;
+        flex: 1;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .text-content50 {
+        display: block;
+        width: 100%;
+        flex: 1;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .text-content60 {
+        display: block;
+        width: 100%;
+        flex: 1;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .text-content70 {
+        display: block;
+        width: 100%;
+        flex: 1;
+        text-align: center;
+        vertical-align: middle;
+    }
+}
+
 .additional-text {
     text-align: center;
     /* Ensures text is left-aligned */
     margin-right: 100px;
     margin-left: 100px;
     /* Added margins so the text didn't go right to the edge */
+}
+
+@media (max-width: 360px) {
+    .additional-text {
+        text-align: center;
+        width: 100%;
+    }
 }
 
 .group-member-card {
