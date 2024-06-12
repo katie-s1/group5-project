@@ -21,15 +21,6 @@
     font-size: 60px;
 }
 
-@media (max-width: 360px) {
-    .heading-landing {
-        text-align: center;
-        margin-top: 20%;
-        color: black;
-        font-size: 40px;
-    }
-}
-
 #enterButton {
     background-color: #9b6aa8f3;
     border: none;
@@ -54,16 +45,6 @@
     text-align: center;
 }
 
-@media (max-width: 360px) {
-    .home-page {
-        background-color: #dabfe0;
-        font-family: Garamond, serif;
-        align-items: center;
-        text-align: center;
-        display: block;
-    }
-}
-
 .main-header {
     display: flex;
     justify-content: space-between;
@@ -71,24 +52,9 @@
     padding: 10px 20px;
 }
 
-@media (max-width: 360px) {
-    .main-header {
-        display: block;      
-        align-items: center;
-       padding: 10px 20px 50px 20px;
-    }
-}
-
 .heading-main {
     font-size: 24px;
     font-weight: bold;
-}
-
-@media (max-width: 360px) {
-    .heading-main {
-        font-size: 18px;
-        font-weight: bold;
-    }
 }
 
 .home-link {
@@ -100,14 +66,6 @@
     font-size: 18px;
     text-decoration: none;
     color: black
-}
-
-@media (max-width: 360px) {
-    .nav-home {
-        font-size: 14px;
-        text-decoration: none;
-        color: black
-    }
 }
 
 .nav-home:hover {
@@ -198,13 +156,6 @@ input::placeholder {
     background-color: #DABFE0;
 }
 
-@media (max-width: 360px) {
-    .content {
-        display: block;
-
-    }
-}
-
 .green-text {
     color: green;
 }
@@ -236,13 +187,6 @@ input::placeholder {
     margin-right: 30px;
     flex-shrink: 0;
     /* Prevents the image container from shrinking */
-}
-
-@media (max-width: 360px) {
-    .image-container {
-        display: block;
-        width: 100%;
-    }
 }
 
 .text-content20 {
@@ -299,43 +243,12 @@ input::placeholder {
     vertical-align: middle;
 }
 
-@media (max-width: 360px) {
-
-    .text-content20,
-    .text-content30,
-    .text-content40,
-    .text-content50,
-    .text-content60,
-    .text-content70 {
-        padding: 20px 0px 0px 0px;
-        text-align: center;
-
-    }
-}
-
 .additional-text {
     text-align: center;
     /* Ensures text is left-aligned */
     margin-right: 100px;
     margin-left: 100px;
     /* Added margins so the text didn't go right to the edge */
-}
-
-@media (max-width: 360px) {
-    .additional-text {
-        display: block;
-        
-    }
-}
-
-@media (max-width: 360px) {
-    .sections {
-        padding: 20px 0px 0px 0px;
-        text-align: center;
-        width: 100%;
-
-        
-    }
 }
 
 .group-member-card {
@@ -364,4 +277,57 @@ input::placeholder {
     background-color: #f4e3f8;
     border-radius: 5px;
     border: 2px solid #9b6aa8f3;
+}
+
+
+@media (max-width: 360px) {
+    .heading-landing {
+        text-align: center;
+        margin-top: 20%;
+        color: black;
+        font-size: 40px;
+    }
+    .home-page {
+        background-color: #dabfe0;
+        font-family: Garamond, serif;
+        align-items: center;
+        text-align: center;
+        display: block;
+    }
+    .main-header {
+        display: block;
+        align-items: center;
+        padding: 10px 20px 50px 20px;
+    }
+    .heading-main {
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .nav-home {
+        font-size: 14px;
+        text-decoration: none;
+        color: black
+    }
+    .content {
+        display: block;
+    }
+    .image-container {
+        display: block;
+        width: 100%;
+    }
+    .text-content20,
+    .text-content30,
+    .text-content40,
+    .text-content50,
+    .text-content60,
+    .text-content70 {
+        padding: 20px 0px 0px 0px;
+        text-align: center;
+    }
+    .additional-text {
+        display: block;
+        margin-right: 10%;
+        margin-left: 10%;
+
+    }
 }
