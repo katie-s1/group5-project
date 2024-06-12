@@ -339,7 +339,8 @@ input::placeholder {
 
     }
     .subscribe-form {
-    margin-right: 5%;
+        display: block;
+        margin-right: 5%;
         margin-left: 5%;
-}
+    }
 }
