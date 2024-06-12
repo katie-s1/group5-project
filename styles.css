@@ -285,7 +285,7 @@ input::placeholder {
         text-align: center;
         margin-top: 20%;
         color: black;
-        font-size: 40px;
+        font-size: 30px;
     }
     .home-page {
         background-color: #dabfe0;
@@ -326,8 +326,8 @@ input::placeholder {
     }
     .additional-text {
         display: block;
-        margin-right: 10%;
-        margin-left: 10%;
+        margin-right: 5%;
+        margin-left: 5%;
 
     }
 }
