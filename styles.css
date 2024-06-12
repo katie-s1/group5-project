@@ -313,7 +313,7 @@ input::placeholder {
 
 @media (max-width: 360px) {
     .additional-text {
-        display: flex;
+        display: contents;
         
     }
 }
