@@ -65,7 +65,7 @@
     .main-header {
         display: block;      
         align-items: center;
-       padding: 10px 20px 40px 20px;
+       padding: 10px 20px 60px 20px;
     }
 }
 
@@ -313,7 +313,7 @@ input::placeholder {
 
 @media (max-width: 360px) {
     .additional-text {
-        display: block;
+        display: flex;
         
     }
 }
