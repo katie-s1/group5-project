@@ -257,7 +257,6 @@ input::placeholder {
         width: 100%;
         flex: 1;
         text-align: center;
-        vertical-align: middle;
     }
 
     .text-content30 {
@@ -265,7 +264,6 @@ input::placeholder {
         width: 100%;
         flex: 1;
         text-align: center;
-        vertical-align: middle;
     }
 
     .text-content40 {
@@ -273,7 +271,6 @@ input::placeholder {
         width: 100%;
         flex: 1;
         text-align: center;
-        vertical-align: middle;
     }
 
     .text-content50 {
@@ -289,7 +286,6 @@ input::placeholder {
         width: 100%;
         flex: 1;
         text-align: center;
-        vertical-align: middle;
     }
 
     .text-content70 {
@@ -297,8 +293,7 @@ input::placeholder {
         width: 100%;
         flex: 1;
         text-align: center;
-        vertical-align: middle;
-    }
+     }
 }
 
 .additional-text {
