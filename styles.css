@@ -332,6 +332,7 @@ input::placeholder {
     .sections {
         padding: 20px 0px 0px 0px;
         text-align: center;
+        width: 100%;
 
         
     }
