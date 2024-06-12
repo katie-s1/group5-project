@@ -356,7 +356,7 @@ input::placeholder {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10% 10%;
+    padding: 10%;
     position: fixed;
     z-index: 1030;
     width: 100%;
