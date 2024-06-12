@@ -253,6 +253,11 @@ input::placeholder {
     /* Added margins so the text didn't go right to the edge */
 }
 
+.subscribe-form {
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
 .group-member-card {
     margin-bottom: 100px;
 }
@@ -333,4 +338,8 @@ input::placeholder {
         margin-left: 5%;
 
     }
+    .subscribe-form {
+    margin-right: 5%;
+        margin-left: 5%;
+}
 }
