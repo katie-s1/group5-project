@@ -284,6 +284,7 @@ input::placeholder {
     .heading-landing {
         text-align: center;
         margin-top: 60%;
+        margin-bottom: 20%;
         color: black;
         font-size: 30px;
     }
