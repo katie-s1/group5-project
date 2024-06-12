@@ -61,11 +61,25 @@
     padding: 10px 20px;
 }
 
+@media (max-width: 360px) {
+    .main-header {
+        display: block;      
+        align-items: center;
+        padding: 10px 40px;
+    }
+}
+
 .heading-main {
     font-size: 24px;
     font-weight: bold;
 }
 
+@media (max-width: 360px) {
+    .heading-main {
+        font-size: 18px;
+        font-weight: bold;
+    }
+}
 
 .home-link {
     text-decoration: none;
@@ -76,6 +90,14 @@
     font-size: 18px;
     text-decoration: none;
     color: black
+}
+
+@media (max-width: 360px) {
+    .nav-home {
+        font-size: 14px;
+        text-decoration: none;
+        color: black
+    }
 }
 
 .nav-home:hover {
@@ -291,7 +313,7 @@ input::placeholder {
 
 @media (max-width: 360px) {
     .additional-text {
-        padding: 20px 0px 0px 0px;
+        display: block;
         text-align: center;
     }
 }
