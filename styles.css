@@ -52,6 +52,10 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
+    position: fixed;
+    z-index: 1030;
+    width: 100%;
+    background-color: #dabfe0;
 }
 
 .heading-main {
@@ -76,6 +80,10 @@
 
 .containerhm {
     margin-top: 30px;
+}
+
+.main-div {
+    padding: 80px;
 }
 
 .star-sign {
