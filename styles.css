@@ -258,7 +258,7 @@ input::placeholder {
     /* Ensures text is left-aligned */
     margin-right: 100px;
     margin-left: 100px;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
     /* Added margins so the text didn't go right to the edge */
 }
 
